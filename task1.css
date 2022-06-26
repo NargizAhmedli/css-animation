@@ -1,0 +1,27 @@
+.area{
+    position: relative;
+    
+}
+.circle{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(29, 82, 206);
+    animation-name: lupa;
+    animation-duration: 4s;
+}
+@keyframes lupa{
+    from{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    to{
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+    }
+}
